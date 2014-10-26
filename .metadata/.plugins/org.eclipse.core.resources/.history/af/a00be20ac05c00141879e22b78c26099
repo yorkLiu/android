@@ -1,7 +1,0 @@
-package com.example.activitygroup;
-
-import android.app.Activity;
-
-public class MyContentActivity extends Activity {
-
-}

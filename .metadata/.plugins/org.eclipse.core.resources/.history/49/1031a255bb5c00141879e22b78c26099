@@ -1,7 +1,0 @@
-package com.example.activitygroup;
-
-import android.app.ActivityGroup;
-
-public class ActivityGroupDemo extends ActivityGroup {
-
-}

@@ -1,0 +1,59 @@
+package com.demo.sqlitedemo;
+
+import java.util.Date;
+
+import android.app.Activity;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class SQLiteDemo extends Activity {
+	
+	SQLiteOpenHelper helper = null;
+	
+	private Button insertBut = null;
+	private Button updateBut = null;
+	private Button deleteBut = null;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		super.setContentView(R.layout.main);
+		
+		insertBut = (Button)this.findViewById(R.id.insertBut);
+		updateBut = (Button)this.findViewById(R.id.updateBut);
+		deleteBut = (Button)this.findViewById(R.id.deleteBut);
+		
+		helper = new MySQLiteHelper(this);
+		
+		insertBut.setOnClickListener(new InsertOnClickListenerImpl());
+		updateBut.setOnClickListener(new UpdateOnClickListenerImpl());
+		updateBut.setOnClickListener(new DeleteOnClickListenerImpl());
+	}
+	
+	private class InsertOnClickListenerImpl implements OnClickListener{
+		@Override
+		public void onClick(View v) {
+			MyTableOperation operation = new MyTableOperation(helper.getWritableDatabase());
+			operation.insert("York Liu", "1988-10-01");
+		}
+	}
+	
+	private class UpdateOnClickListenerImpl implements OnClickListener{
+		@Override
+		public void onClick(View v) {
+			
+		}
+	}
+	
+	private class DeleteOnClickListenerImpl implements OnClickListener{
+		@Override
+		public void onClick(View v) {
+			
+		}
+	}
+	
+
+}

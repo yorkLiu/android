@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TabHostXmlImpl&apos; to &apos;TabHostExtendsActivity&apos;" description="Rename resource &apos;TabHostXmlImpl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/TabHostXmlImpl" name="TabHostExtendsActivity" stamp="1405317189806" updateReferences="true"/>
+</session>

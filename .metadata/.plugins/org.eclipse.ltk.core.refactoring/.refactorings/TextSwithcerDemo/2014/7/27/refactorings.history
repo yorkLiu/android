@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.demo.textswithcerdemo.TexSwitcherDemo&apos; to &apos;TextSwitcherDemo&apos;&#x0A;- Original project: &apos;TextSwithcerDemo&apos;&#x0A;- Original element: &apos;com.demo.textswithcerdemo.TexSwitcherDemo&apos;&#x0A;- Renamed element: &apos;com.demo.textswithcerdemo.TextSwitcherDemo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TexSwitcherDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.demo.textswithcerdemo{TexSwitcherDemo.java[TexSwitcherDemo" matchStrategy="1" name="TextSwitcherDemo" qualified="false" references="true" similarDeclarations="false" stamp="1404604124772" textual="false" version="1.0"/>
+</session>

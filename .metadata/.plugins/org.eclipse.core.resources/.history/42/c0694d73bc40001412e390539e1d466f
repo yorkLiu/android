@@ -1,0 +1,30 @@
+package com.example.intentdemo;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class OpenWebPageActivity extends Activity {
+	
+	private Button visitButton = null;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		super.setContentView(R.layout.web_page_main);
+		visitButton = (Button)this.findViewById(R.id.visit);
+		visitButton.setOnClickListener(new OnVisitButtonClickListeners());
+		
+	}
+	
+	private class OnVisitButtonClickListeners implements OnClickListener{
+		@Override
+		public void onClick(View v) {
+			
+		}
+		
+	}
+
+}

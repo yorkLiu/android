@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <SlidingDrawer
+        android:id="@+id/slidingdrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:content="@+id/detailsContent"
+        android:handle="@+id/detailsBtn" >
+
+        <ImageButton
+            android:id="@+id/detailsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_details" />
+
+        <ListView
+            android:id="@+id/detailsContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/detailContents" >
+        </ListView>
+    </SlidingDrawer>
+
+    <ListView
+        android:id="@+id/aaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/detailContents" >
+    </ListView>
+
+</LinearLayout>

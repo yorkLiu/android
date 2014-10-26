@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+	    android:id="@+id/menuAdd"
+	    android:icon="@android:drawable/ic_input_add"
+	    android:title="Add"/> 
+	<item
+	    android:id="@+id/menuEdit"
+	    android:icon="@android:drawable/ic_input_get"
+	    android:title="Edit"/>
+	<item
+	    android:id="@+id/menuDelete"
+	    android:icon="@android:drawable/ic_input_delete"
+	    android:title="Delete"/>
+	<item
+	    android:id="@+id/menuBackup"
+	    android:icon="@android:drawable/ic_dialog_email"
+	    android:title="Back Up"/>
+	<item
+	    android:id="@+id/menuRestore"
+	    android:icon="@android:drawable/ic_menu_agenda" 
+	    android:title="Restore"/>
+	<item
+	    android:id="@+id/menuSaveAs"
+	    android:icon="@android:drawable/ic_secure"
+	    android:title="Save As"/>
+</menu>
+   

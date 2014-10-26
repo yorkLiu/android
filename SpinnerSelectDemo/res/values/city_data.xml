@@ -1,0 +1,10 @@
+<resources>
+
+    <string-array name="province_data">
+        <item>四川</item>
+        <item>重庆</item>
+        <item>北京</item>
+        <item>陕西</item>
+    </string-array>
+
+</resources>

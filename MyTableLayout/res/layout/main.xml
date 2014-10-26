@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:shrinkColumns="3" 
+    >
+    
+    <!-- <TableRow>
+        <EditText 
+            android:id="@+id/searchText"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="Please input text..."
+            />
+        <Button 
+            android:id="@+id/searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            />
+    </TableRow>
+    
+    add hr
+    <View 
+        android:layout_height="2dp"
+        android:background="#000000"
+        />
+    
+    <TableRow>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Encoding:"
+            android:textSize="20px"
+            />
+        <RadioGroup
+            android:id="@+id/radio_radioGroup" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:checkedButton="@+id/enc_utf"
+            >
+            <RadioButton 
+                android:id="@+id/enc_utf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UTF-8"
+                />
+            <RadioButton 
+                android:id="@+id/enc_gbk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GBK"
+                />
+            <RadioButton 
+                android:id="@+id/enc_iso88591"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ISO8859-1"
+                />
+        </RadioGroup>
+    </TableRow> -->
+    
+    <!-- 用Table布局显示数据 -->
+    <TableRow>
+        <TextView 
+            android:text="ID"
+            android:padding="6px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="Name"
+            android:padding="6px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="Email"
+            android:padding="6px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="Address"
+            android:padding="6px"
+            android:gravity="center_horizontal"
+            />
+    </TableRow>
+    <View 
+        android:layout_height="2px"
+        android:background="#000000"/>
+    
+    <TableRow >
+        <TextView 
+            android:text="1"
+            android:padding="3px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="York"
+            android:padding="3px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="york@androidDev.com"
+            android:padding="3px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="成都"
+            android:padding="3px"
+            android:gravity="center_horizontal"
+            /> 
+    </TableRow>
+    
+    <TableRow >
+        <TextView 
+            android:text="2"
+            android:padding="3px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="Jac"
+            android:padding="3px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="jac@androidDev.com"
+            android:padding="3px"
+            android:gravity="center_horizontal"
+            />
+        <TextView 
+            android:text="宇宙地球村中国四川成都天府软件园G区Android开发有限责任公司"
+            android:padding="3px"
+            android:gravity="center_horizontal"
+            /> 
+    </TableRow>
+    
+</TableLayout>

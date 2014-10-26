@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">下拉列表框</string>
+    <string name="spinner_title">你最爱的城市: </string>
+    <string name="spinner_city_title">请选择你喜欢的城市: </string>
+    
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">SpinnerSelectDemo</string>
+    <string name="province_promt">请选择省份:</string>
+    <string name="city_promt">请选择城市:</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/menuAdd"
+        android:title="Add City"
+        />
+    <item 
+        android:id="@+id/menuDelete"
+        android:title="Remove this City"
+        />
+    <item 
+        android:id="@+id/menuMore"
+        android:title="About More"
+        />
+</menu>

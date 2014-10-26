@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/file"
+        android:icon="@android:drawable/ic_partial_secure"
+        android:title="File">
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/openFile"
+                android:title="Open"/>
+            <item
+                android:id="@+id/saveFile"
+                android:title="Save"/>
+            <item
+                android:id="@+id/closeFile"
+                android:title="Close"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">运动计时器</string>
+    <string name="second">秒</string>
+    <string name="sportSeconds_label">每项运动时间(秒):</string>
+    <string name="restSeconds_label">每项运动结束之后，休息时间(秒):</string>
+    <string name="start_button_text">开始运动</string>
+    <string name="end_button_text">结束运动</string>
+    <string name="total_time_message">亲，您已进行了【{0}】项运动，共耗时： </string>
+    
+    
+    <string name="default_sportSeconds_value">30</string>
+    <string name="default_restSeconds_value">5</string>
+    
+    
+    <string name="finish_app_message">再按一次退出系统</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="detailContents">
+        <item>User Info</item>
+        <item>User Details</item>
+        <item>User Zone</item>
+        <item>Log Out</item>
+    </string-array>
+</resources>

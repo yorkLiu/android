@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLite CRUD操作" />
+
+    <Button
+        android:id="@+id/insertBut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="增加数据" />
+
+    <Button
+        android:id="@+id/updateBut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="修改数据" />
+
+    <Button
+        android:id="@+id/deleteBut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="删除数据" />
+    
+    <Button
+        android:id="@+id/queryBut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="显示所有数据" /> -->
+        
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <EditText 
+                android:id="@+id/searchText"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+            <Button 
+                android:id="@+id/searchBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                />
+        </TableRow>
+    </TableLayout>    
+        
+
+</LinearLayout>

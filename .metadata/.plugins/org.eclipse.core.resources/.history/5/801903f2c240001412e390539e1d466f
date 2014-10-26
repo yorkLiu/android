@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TableRow>
+        <TextView 
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:text="收件人: "
+            />
+        <EditText 
+            android:id="@+id/receiver"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:text="12345678900"
+            />
+    </TableRow>
+
+
+</TableLayout>

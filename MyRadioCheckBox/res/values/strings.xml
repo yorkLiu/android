@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">MyRadioCheckBox</string>
+    <string name="radio_checkbox_title">Radio and Checkbox</string>
+    <string name="radio_title">Radio</string>
+    <string name="checkbox_title">check box</string>
+    
+    <string name="r_chengdu">成都</string>
+    <string name="r_chongqin">重庆</string>
+    <string name="r_beijing">北京</string>
+    <string name="r_tianjin">天津</string>
+    
+    <string name="c_backetball">篮球</string>
+    <string name="c_pingpoball">乒乓球</string>
+    <string name="c_bycle">自行车</string>
+
+</resources>

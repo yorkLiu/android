@@ -1,0 +1,8 @@
+<resources>
+	<string-array name="city_labes">
+	    <item>北京</item>
+	    <item>天津</item>
+	    <item>成都</item>
+	    <item>重庆</item>
+	</string-array>
+</resources>

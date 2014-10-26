@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">IntentSimpleDemo</string>
+    <string name="send_name">发送Activity</string>
+    <string name="receive_name">接收Activity</string>
+
+</resources>

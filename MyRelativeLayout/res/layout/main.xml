@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView 
+        android:id="@+id/myText"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:text="This is test Relative layout text view, this is the original pointor by other views."
+        />
+    
+    <EditText 
+         android:id="@+id/mySearch1"
+         android:layout_width="120px"
+         android:layout_height="wrap_content"
+         android:text="Search1..."
+         android:layout_toRightOf="@id/myText"
+        />
+    <EditText 
+         android:id="@+id/mySearch2"
+         android:layout_width="120px"
+         android:layout_height="wrap_content"
+         android:text="Search2..."
+         android:layout_below="@id/mySearch1"
+         android:layout_toRightOf="@id/myText"
+        />
+    
+    <Button 
+        android:id="@+id/searchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_toRightOf="@id/mySearch1"
+        android:layout_marginTop="26px"
+        />
+    
+
+</RelativeLayout>

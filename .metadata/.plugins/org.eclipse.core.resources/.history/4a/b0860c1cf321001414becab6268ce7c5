@@ -1,8 +1,0 @@
-package com.demo.sqlitedemo;
-
-public class MyTableOperation {
-	
-	/**table named person**/
-	private static final String TABLE_PERSON = "Person";
-
-}

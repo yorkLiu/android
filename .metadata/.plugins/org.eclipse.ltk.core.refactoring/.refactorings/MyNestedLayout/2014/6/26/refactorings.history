@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;MyNestedLayout/res/drawable-hdpi/主力对倒图.jpg&apos; to &apos;demo2.jpg&apos;" description="Rename resource &apos;主力对倒图.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable-hdpi/主力对倒图.jpg" name="demo2.jpg" stamp="1403418940425" updateReferences="true"/>
-</session>
